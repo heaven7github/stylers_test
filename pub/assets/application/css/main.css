@@ -1,0 +1,19 @@
+#main_container
+{
+    padding-top:100px;
+}
+
+.header_top
+{
+    padding-bottom:25px;
+}
+
+.top_buttons
+{
+    padding-bottom:25px;
+}
+
+.container .list-group-item {
+    border-width: 0px 0px 0px 2px;
+    border-radius: 0px;
+}

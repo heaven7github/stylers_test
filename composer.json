@@ -1,0 +1,21 @@
+{
+    "name": "json_demo_application",
+    "description": "JSON demo application for Stylers",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Feherdi Lorand",
+            "email": "feherdi.lorand@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "components/jquery": "3.2.*",
+        "components/bootstrap": "4.0.0-beta",
+        "robloach/component-installer": "^0.2.3",
+        "composer/installers": "~1.0"
+    },
+    "config": {
+        "component-dir": "pub/assets"
+    }
+}

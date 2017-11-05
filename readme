@@ -1,0 +1,15 @@
+Ez egy JSON adat feldolgozó demo alkalmazás.
+
+A futtatáshoz szükséges rendszerkövetelmények:
+PHP 7.1
+    curl
+
+MySQL 10.1.21-MariaDB
+    adatbázis és tábla létrehozási jogosultság
+
+Az adatbázis konfigurációs fájlja a data/config.php-ban van.
+
+A config.php-ban lehet beállítani továbbá az e-mail címet, ahova küldje el a megoldást és az demo alkalmazás telepítési könyvtárát is.
+Jelenleg stylers_test van beállítva, ami azt jelenti, hogy http://localhost/stylers_test/ cím alatt érhető el.
+
+data könytárra írási jogosultság. A json a data/adat.json fájlba lesz lementve.
